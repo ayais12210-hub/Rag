@@ -1,0 +1,19 @@
+{
+  "name": "lumina-worker",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "bullmq": "^4.12.0",
+    "zod": "^3.22.0",
+    "@lumina/db": "workspace:*",
+    "@lumina/config": "workspace:*",
+    "@lumina/ai": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

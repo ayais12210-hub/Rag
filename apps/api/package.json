@@ -1,0 +1,26 @@
+{
+  "name": "lumina-api",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.24.0",
+    "@fastify/cors": "^8.4.1",
+    "@trpc/server": "^10.43.0",
+    "@fastify/static": "^6.12.0",
+    "zod": "^3.22.0",
+    "bullmq": "^4.12.0",
+    "@clerk/clerk-sdk-node": "^4.12.0",
+    "@lumina/db": "workspace:*",
+    "@lumina/config": "workspace:*",
+    "@lumina/ai": "workspace:*",
+    "@lumina/types": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

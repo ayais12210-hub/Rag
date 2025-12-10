@@ -1,0 +1,5 @@
+{
+  "name": "Lumina Enterprise RAG",
+  "description": "A high-fidelity Enterprise AI Knowledge Hub monorepo with separate API, Worker, and Next.js Frontend.",
+  "requestFramePermissions": []
+}
